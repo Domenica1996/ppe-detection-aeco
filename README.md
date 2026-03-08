@@ -75,10 +75,10 @@ En este proyecto las imágenes fueron utilizadas únicamente con fines académic
 
 Métricas principales del modelo:
 
-- Precision: [COMPLETAR]
-- Recall: [COMPLETAR]
-- mAP50: [COMPLETAR]
-- mAP50-95: [COMPLETAR]
+- Precision: 66.8%
+- Recall: 43.7%
+- mAP50: 40.9%
+- mAP50-95: 27.6%
 
 ### Conclusiones clave
 
