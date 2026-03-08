@@ -144,7 +144,7 @@ Resultados generados
 - Predicciones en validación
 - Predicciones en imágenes nuevas
 
-- ## Pesos del modelo
+## Pesos del modelo
 
 El modelo entrenado se encuentra disponible en Roboflow:
 
@@ -154,7 +154,7 @@ Este modelo corresponde al entrenamiento realizado sobre el dataset PPE AECO uti
 
 El entrenamiento completo también puede reproducirse mediante el notebook de Google Colab incluido en este repositorio.
 
-- ## Licencia
+## Licencia
 
 El código y la documentación de este repositorio se distribuyen bajo licencia MIT.
 
@@ -164,13 +164,14 @@ Esta licencia aplica al código, notebooks y documentación del proyecto.
 
 ### Presentación
 
-Descargar presentación del proyecto:
-
-M4T3_ PRESENTACION_DOMENICA DEBARBIERI.pdf
+[Descargar presentación (PDF)](M4T3_ PRESENTACION_DOMENICA DEBARBIERI.pdf)
 
 ### Mini-informe
 
-Descargar informe del proyecto:
+[Descargar mini informe (PDF)](M4T3_DOMENICA DEBARBIERI_INFORME.pdf)
 
-M4T3_DOMENICA DEBARBIERI_INFORME.pdf
+
+
+
+
 
