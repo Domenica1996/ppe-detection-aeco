@@ -36,8 +36,46 @@ Las clases utilizadas son:
 - Fuente: Roboflow
 - Formato: YOLOv8
 - Split: 80% entrenamiento / 20% validación
-- Enlace al dataset: [PEGAR LINK DE ROBOFLOW]
-- Versión del dataset: [COMPLETAR]
+- Enlace al dataset:(https://app.roboflow.com/domenicas-workspace/m4t3/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+- Versión del dataset: 4
+
+El dataset utilizado en este proyecto fue construido manualmente a partir de imágenes públicas obtenidas desde la plataforma Unsplash.
+
+Fuente de las imágenes:
+https://unsplash.com/s/photos/construction-person-equipment
+
+Las imágenes corresponden a escenas relacionadas con obras de construcción donde aparecen trabajadores utilizando distintos Equipos de Protección Personal (EPP), tales como cascos, chalecos reflectantes y botas de seguridad.
+
+A partir de estas imágenes se realizó un proceso de:
+
+- selección manual de imágenes relevantes
+- anotación de objetos mediante Roboflow
+- generación de un dataset en formato YOLOv8
+- división del dataset en entrenamiento y validación
+
+Configuración del dataset:
+
+- Plataforma de anotación: Roboflow
+- Formato de exportación: YOLOv8
+- Split utilizado: 80% entrenamiento / 20% validación
+- Versión del dataset: v4
+- Enlace al dataset en Roboflow:  
+https://app.roboflow.com/domenicas-workspace/m4t3/4
+
+Clases detectadas por el modelo:
+
+- casco de seguridad
+- chaleco de seguridad
+- botas de seguridad
+- persona
+
+### Derechos y licencia de las imágenes
+
+Las imágenes utilizadas provienen de Unsplash, una plataforma que distribuye fotografías bajo la licencia Unsplash License.
+
+Esta licencia permite el uso libre de las imágenes, incluyendo usos comerciales y modificaciones, sin requerir permiso previo del autor, siempre que no se utilicen de forma que implique respaldo o promoción directa por parte del fotógrafo.
+
+En este proyecto las imágenes fueron utilizadas únicamente con fines académicos y de experimentación para entrenar un modelo de detección de objetos en el contexto del sector AECO.
 
 ## Cómo reproducir en Google Colab
 
