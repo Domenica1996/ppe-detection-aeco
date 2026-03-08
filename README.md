@@ -1,4 +1,3 @@
-# ppe-detection-aeco
 # Detección de Equipos de Protección Personal (EPP) en imágenes de obra usando YOLOv8
 
 ## Problema AECO
@@ -53,7 +52,7 @@ A partir de estas imágenes se realizó un proceso de:
 - generación de un dataset en formato YOLOv8
 - división del dataset en entrenamiento y validación
 
-### Derechos y licencia de las imágenes
+## Derechos y licencia de las imágenes
 
 Las imágenes utilizadas provienen de Unsplash, una plataforma que distribuye fotografías bajo la licencia Unsplash License.
 
@@ -67,7 +66,7 @@ En este proyecto las imágenes fueron utilizadas únicamente con fines académic
 - `/docs/`: problema, clases, análisis de errores y gobernanza
 - `/results/`: curvas, métricas y ejemplos de predicción
 
-# Cómo reproducir el proyecto
+## Cómo reproducir el proyecto
 
 1. Abrir el notebook desde GitHub en Google Colab.
 
@@ -144,6 +143,16 @@ Resultados generados
 - Curvas de entrenamiento
 - Predicciones en validación
 - Predicciones en imágenes nuevas
+
+- ## Pesos del modelo
+
+El modelo entrenado se encuentra disponible en Roboflow:
+
+https://app.roboflow.com/domenicas-workspace/m4t3/models/m4t3/4
+
+Este modelo corresponde al entrenamiento realizado sobre el dataset PPE AECO utilizando YOLOv8.
+
+El entrenamiento completo también puede reproducirse mediante el notebook de Google Colab incluido en este repositorio.
 
 - ## Licencia
 
