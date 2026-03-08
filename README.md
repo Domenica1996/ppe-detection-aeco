@@ -79,3 +79,31 @@ Métricas principales del modelo:
 - `/notebooks/`: notebooks de entrenamiento, evaluación e inferencia
 - `/docs/`: problema, clases, análisis de errores y gobernanza
 - `/results/`: curvas, métricas y ejemplos de predicción
+
+
+
+## Prueba de reproducibilidad
+
+Última ejecución exitosa: 2026-03-07
+
+Entorno de ejecución
+- Plataforma: Google Colab
+- GPU utilizada: Tesla T4
+
+Tiempo esperado de ejecución
+- Aproximadamente 10–20 minutos con GPU para una verificación corta.
+
+Modo de prueba
+- El notebook fue ejecutado completamente desde cero para verificar reproducibilidad.
+
+Parámetros del modelo
+- Modelo: YOLOv8s
+- epochs: 80
+- batch: 16
+- imgsz: 640
+
+Resultados generados
+- Métricas de validación (Precision, Recall, mAP50, mAP50-95)
+- Curvas de entrenamiento
+- Predicciones en validación
+- Predicciones en imágenes nuevas
