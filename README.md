@@ -166,7 +166,7 @@ Esta licencia aplica al código, notebooks y documentación del proyecto.
 ## Entregables
 
 ### Presentación
-[Descargar presentación](M4T3_PRESENTACION_DOMENICA_DEBARBIERI.pdf)
+[Descargar presentación](M4T3_ PRESENTACION_DOMENICA_DEBARBIERI.pdf)
 
 ### Mini informe
 [Descargar informe](M4T3_DOMENICA_DEBARBIERI_INFORME.pdf)
