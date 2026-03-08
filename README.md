@@ -61,6 +61,12 @@ Esta licencia permite el uso libre de las imágenes, incluyendo usos comerciales
 
 En este proyecto las imágenes fueron utilizadas únicamente con fines académicos y de experimentación para entrenar un modelo de detección de objetos en el contexto del sector AECO.
 
+## Estructura del repositorio
+
+- `/notebooks/`: notebooks de entrenamiento, evaluación e inferencia
+- `/docs/`: problema, clases, análisis de errores y gobernanza
+- `/results/`: curvas, métricas y ejemplos de predicción
+
 ## Cómo reproducir en Google Colab
 
 1. Abrir el notebook principal desde la carpeta `/notebooks/`.
@@ -86,6 +92,19 @@ Métricas principales del modelo:
 2. Los objetos pequeños, como cascos, presentan mayor dificultad de detección.
 3. La mejora del balance de clases y de las anotaciones podría aumentar el recall.
 
+## Curvas de entrenamiento
+
+A continuación se presentan algunas de las curvas generadas durante el entrenamiento del modelo YOLOv8.
+
+### Resultados generales
+![Resultados](results/curves/results.png)
+
+### Curva Precision–Recall
+![PR Curve](results/curves/PR_curve.png)
+
+### Matriz de confusión
+![Confusion Matrix](results/curves/confusion_matrix.png)
+
 ## Checklist de Reproducibilidad
 
 - Dataset / versión: 4
@@ -95,12 +114,6 @@ Métricas principales del modelo:
 - batch: 16
 - imgsz: 640
 - versión de ultralytics: 8.2.103
-
-## Estructura del repositorio
-
-- `/notebooks/`: notebooks de entrenamiento, evaluación e inferencia
-- `/docs/`: problema, clases, análisis de errores y gobernanza
-- `/results/`: curvas, métricas y ejemplos de predicción
 
 ## Prueba de reproducibilidad
 
