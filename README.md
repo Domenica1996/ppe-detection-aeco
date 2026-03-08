@@ -102,8 +102,6 @@ Métricas principales del modelo:
 - `/docs/`: problema, clases, análisis de errores y gobernanza
 - `/results/`: curvas, métricas y ejemplos de predicción
 
-
-
 ## Prueba de reproducibilidad
 
 Última ejecución exitosa: 2026-03-07
@@ -129,3 +127,10 @@ Resultados generados
 - Curvas de entrenamiento
 - Predicciones en validación
 - Predicciones en imágenes nuevas
+
+- ## Licencia
+
+El código y la documentación de este repositorio se distribuyen bajo licencia MIT.
+
+Esta licencia aplica al código, notebooks y documentación del proyecto.
+
