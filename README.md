@@ -53,22 +53,6 @@ A partir de estas imágenes se realizó un proceso de:
 - generación de un dataset en formato YOLOv8
 - división del dataset en entrenamiento y validación
 
-Configuración del dataset:
-
-- Plataforma de anotación: Roboflow
-- Formato de exportación: YOLOv8
-- Split utilizado: 80% entrenamiento / 20% validación
-- Versión del dataset: v4
-- Enlace al dataset en Roboflow:  
-https://app.roboflow.com/domenicas-workspace/m4t3/4
-
-Clases detectadas por el modelo:
-
-- casco de seguridad
-- chaleco de seguridad
-- botas de seguridad
-- persona
-
 ### Derechos y licencia de las imágenes
 
 Las imágenes utilizadas provienen de Unsplash, una plataforma que distribuye fotografías bajo la licencia Unsplash License.
