@@ -67,15 +67,19 @@ En este proyecto las imágenes fueron utilizadas únicamente con fines académic
 - `/docs/`: problema, clases, análisis de errores y gobernanza
 - `/results/`: curvas, métricas y ejemplos de predicción
 
-## Cómo reproducir en Google Colab
+# Cómo reproducir el proyecto
 
-1. Abrir el notebook principal desde la carpeta `/notebooks/`.
-2. Ejecutar las celdas de instalación de dependencias.
-3. Descargar el dataset desde Roboflow.
-4. Entrenar el modelo YOLOv8 o cargar pesos ya entrenados si corresponde.
-5. Ejecutar validación.
-6. Ejecutar inferencia en imágenes de validación e imágenes nuevas.
-7. Revisar métricas, curvas y resultados guardados en `/results/`.
+1. Abrir el notebook desde GitHub en Google Colab.
+
+2. Ejecutar el notebook completo.
+
+3. El notebook realizará automáticamente:
+
+- instalación de dependencias
+- descarga del dataset desde Roboflow
+- entrenamiento del modelo
+- generación de métricas
+- generación de predicciones
 
 ## Resumen de resultados
 
