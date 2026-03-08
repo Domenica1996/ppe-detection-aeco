@@ -160,3 +160,17 @@ El código y la documentación de este repositorio se distribuyen bajo licencia 
 
 Esta licencia aplica al código, notebooks y documentación del proyecto.
 
+## Entregables
+
+### Presentación
+
+Descargar presentación del proyecto:
+
+M4T3_ PRESENTACION_DOMENICA DEBARBIERI.pdf
+
+### Mini-informe
+
+Descargar informe del proyecto:
+
+M4T3_DOMENICA DEBARBIERI_INFORME.pdf
+
